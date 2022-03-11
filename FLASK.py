@@ -9,7 +9,7 @@ app = Flask(__name__)
 model = pickle.load(open("classifier.pkl", "rb"))
 
 #default page of our web-app
-app=Flask(__name__,template_folder='d:/DATA')
+#app=Flask(__name__,template_folder='d:/DATA')
 
 
 
